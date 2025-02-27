@@ -1,0 +1,12 @@
+.about-main{
+    background-color: var(--dark-grey);
+}
+.about-content{
+    display: flex;
+    flex-direction: row;
+    gap: 79px;
+}
+.right-content img{
+    width: 100%;
+    border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+
+.footer-main{
+    padding-bottom: 0;
+}
+.footer-details h4{
+    text-align: center;
+}
+.contact-links ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-links ul li{
+    list-style: none;
+    padding-top: 50px;
+}
+.footer-main h5{
+    text-align: center;
+}

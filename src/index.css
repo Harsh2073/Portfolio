@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white:#fff;
+  --black:#000;
+  --light-grey:#f2f2f2;
+  --dark-grey:#c4c4c4;
+  --border:rgba(0,0,0,0.5);
+  --blue:#0000FF;
+  --shadow:rgba(0,0,0,0.1);
+}
+body {
+  font-size: normal;
+  font-weight: normal;
+  background-color: var(--white);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Inter";
+  color: var(--black);
+  font-weight: 400;
+}
+h1,.title_h1{
+  font-size: 72px;
+}
+h2,.title_h2{
+  font-size: 36px;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
+h3,.title_h3{
+  font-size: 30px;
+}
+h4,.title_h4{
+  font-size: 24px;
+}
+h5,.tittle_h5{
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--black);
+  font-family: "Inter";
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--black);
+}
+.container{
+  max-width: 1920px;
+  margin: 0;
+  padding: 0;
+}
+.title_h2::after,.title_h2::before{
+  content: "";
+  position: absolute;
+  width: 37%;
+  height: 2px;
+  background: var(--black);
+  top:50%;
+}
+.title_h2::after{
+  right: 0;
+}
+.title_h2::before{
+  left: 0;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  padding: 80px 225px 120px 225px;
+  gap: 50px;
+}

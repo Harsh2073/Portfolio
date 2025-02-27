@@ -1,0 +1,36 @@
+
+.header-main{
+    padding: 10px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 0 var(--shadow);
+}
+.logo{
+    border-radius: 30px;
+    box-shadow: 0 0 40px 0 var(--shadow);
+}
+.nav-panel a{
+    color: var(--black);
+    font-family: "Inter";
+}
+.nav-panel a:visited{
+    color: var(--blue);
+}
+.btn{
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 10px 8px;
+}
+.btn a{
+    color: var(--black);
+    font-family: "Inter";
+}

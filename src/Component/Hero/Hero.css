@@ -1,0 +1,13 @@
+.hero-main{
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}

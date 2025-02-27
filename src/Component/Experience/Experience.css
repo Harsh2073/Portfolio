@@ -1,0 +1,35 @@
+
+.experience-block{
+    display: flex;
+    gap: 26px;
+}
+.experience-details{
+    border-left:2px solid var(--black);
+    padding-left: 20px;
+    text-align: left;
+}
+.experience-block:nth-child(3) .experience-details{
+    border-left: 0;
+    border-right: 2px solid var(--black);
+    text-align: left;
+    padding-right:20px ;
+}
+.experience-title{
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    gap: 4px;
+}
+.experience-description{
+    flex: 2;
+}
+.points{
+    list-style: disc;
+    padding-left: 20px;
+}
+.points li{
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 400;
+    margin-bottom: 10px;
+}
