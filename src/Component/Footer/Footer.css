@@ -1,6 +1,7 @@
 
 .footer-main{
     padding-bottom: 0;
+    background-color: var(--light-background);
 }
 .footer-details h4{
     text-align: center;

@@ -1,5 +1,5 @@
 .about-main{
-    background-color: var(--dark-grey);
+    background-color: var(--dark-background);
 }
 .about-content{
     display: flex;

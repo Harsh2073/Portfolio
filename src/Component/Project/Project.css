@@ -1,8 +1,13 @@
 
 .project-main{
-    background-color: var(--dark-grey);
+    background-color: var(--dark-background);
 }
-.project-block{
+.project-top,.project-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.project-block,.project-bottom-block{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -11,27 +16,27 @@
     width: 100%;
     border-radius: 10px;
 }
-.project-content{
+.project-content,.bottom-block-content{
     display: flex;
     flex-direction: column;
     gap: 12px;
     justify-content: center;
 }
-.project-heading{
+.project-heading,.bottom-block-heading{
     padding-bottom: 12px;
     border-bottom: 2px solid var(--black);
 }
-.project-links{
+.project-links,.bottom-block-links{
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.project-links ul{
+.project-links ul,.bottom-block-links ul{
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
-.project-links ul li{
+.project-links ul li,.bottom-block-links ul li{ 
     font-size: 18px;
     font-weight: 400;
     font-family: "Inter";
@@ -47,5 +52,18 @@
 }
 .project-block:nth-child(3) .icons{
     justify-content: end;
+}
+.bottom-block-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.bottom-block-image img{
+    width: 100%;
+}
+.other-project{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 30px;
 }
 

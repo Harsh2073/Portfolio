@@ -17,7 +17,7 @@ const Header = () => {
                 <Link to='/Footer'><a>Contact</a></Link>
             </div>
             <div className='btn'>
-                <a href='/My-resume.pdf'>Resume</a>
+                <a href='#'>Resume</a>
             </div>
             {/*<div className='btn'>
               <a href='/src/assets/Header/My-resume.pdf'>Resume</a>

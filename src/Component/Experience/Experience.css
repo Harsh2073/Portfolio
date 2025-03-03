@@ -1,4 +1,6 @@
-
+.experience-main{
+    background-color: var(--light-background);
+}
 .experience-block{
     display: flex;
     gap: 26px;

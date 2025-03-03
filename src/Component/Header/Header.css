@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--light-background);
 }
 .nav-panel{
     display: flex;
@@ -34,3 +35,4 @@
     color: var(--black);
     font-family: "Inter";
 }
+

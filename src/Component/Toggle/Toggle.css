@@ -1,0 +1,42 @@
+.toggle-container {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+}
+.toggle{
+    visibility: hidden;
+}
+label{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+    color: var(--black);
+    margin-top: -15px;
+}
+label::before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    top: 7px;
+    left: -27px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: var(--dark-background);
+    transition: background-color 0.25s ease-in-out;
+}
+label::after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 10px;
+    position: absolute;
+    left: -26px;
+    top: 8px;
+    background-color: var(--light-background);
+    transition: background-color 0.25s ease-in-out,transform 0.25s ease-in-out;
+}
+.toggle:checked + label::after{
+    transform: translateX(100%);
+}
