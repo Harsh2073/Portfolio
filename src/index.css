@@ -13,15 +13,16 @@
   --shadow:rgba(0,0,0,0.1);
 }
 [data-theme="dark"]{
-  --light-background:#c4c4c4;
-  --dark-background:#f2f2f2;
-  --border:rgba(0, 0, 0, 0.996);
+  --white:#f4f4f4;
+  --black:#fff;
+  --light-background:#7c7979;
+  --dark-background:#2C2C2B;
   --shadow:rgb(255, 255, 255);
 }
 body {
   font-size: normal;
   font-weight: normal;
-  background-color: var(--white);
+  background-color: var(--white);        
 }
 h1,h2,h3,h4,h5,h6{
   font-family: "Inter";
@@ -36,6 +37,7 @@ h2,.title_h2{
   text-align: center;
   position: relative;
   font-weight: 500;
+  color: var(--black);
 }
 h3,.title_h3{
   font-size: 30px;
